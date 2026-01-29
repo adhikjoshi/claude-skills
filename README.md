@@ -7,21 +7,7 @@ A curated collection of Claude Code skills and plugins for AI-powered developmen
 | Skill | Description |
 |-------|-------------|
 | [image-gen](plugins/image-gen) | AI image generation and editing across multiple providers |
-| [prd](plugins/prd) | AI-optimized PRD generator for feature planning |
-| [decompose](plugins/decompose) | PRD decomposer for Ralph-ready task files |
 | [ralph-wiggum](https://github.com/shipdeckai/ralph-wiggum) | Iterative AI development loops - specs, prompts, and automation |
-
-## PRD → Decompose → Ralph Loop Workflow
-
-The `prd` and `decompose` skills work together with the `ralph-wiggum` plugin to enable autonomous feature development:
-
-```
-/prd "feature description"          → Creates AI-optimized PRD
-        ↓
-/decompose tasks/prd-feature.md     → Decomposes into context-sized tasks
-        ↓
-/ralph                              → Sets up iterative loop for execution
-```
 
 ## Installation
 
